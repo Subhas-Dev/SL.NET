@@ -25,6 +25,7 @@ namespace CSharp_Lab
                 new Employee {EmpId = 202, EmpName = "John",Salary=600,Experience=4},
                 new Employee {EmpId=302, EmpName="Jack",Salary=3000,Experience=3},
                 new Employee {EmpId=402, EmpName="Peter",Salary=700,Experience=6}
+                 new Employee {EmpId=502, EmpName="Kelly",Salary=700,Experience=5}
             };
 
             IsPromotable isPromotable = new IsPromotable(IsEligibleForPromotion);
