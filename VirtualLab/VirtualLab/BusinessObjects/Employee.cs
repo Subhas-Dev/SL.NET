@@ -15,6 +15,8 @@ namespace VirtualLab.BusinessObjects
 
         public string Country { get; set; }
 
+        public string Status { get; set; }
 
+        public  string Nationality { get; set; }
     }
 }
