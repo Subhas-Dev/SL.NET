@@ -53,6 +53,7 @@ namespace VirtualLab
                         if (emp != null) {
 
                             emp.FirstName = "Subhas";
+                            emp.LastName = "Luchmun";
                             
                         }
                     }
