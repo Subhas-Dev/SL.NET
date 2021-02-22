@@ -54,6 +54,8 @@ namespace VirtualLab
 
                             emp.FirstName = "Subhas";
                             emp.LastName = "Luchmun";
+                            emp.Address = "Milton";
+                            emp.Country = "Canada";
                             
                         }
                     }
