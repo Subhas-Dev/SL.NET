@@ -56,6 +56,8 @@ namespace VirtualLab
                             emp.LastName = "Luchmun";
                             emp.Address = "Milton";
                             emp.Country = "Canada";
+                            emp.Age = 45;
+                            emp.Gender = "Male";
                             
                         }
                     }
