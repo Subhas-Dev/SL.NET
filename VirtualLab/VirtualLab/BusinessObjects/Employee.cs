@@ -22,5 +22,6 @@ namespace VirtualLab.BusinessObjects
         public  string Gender { get; set; }
         
         public  int Height { get; set; }
+        public  int Weight { get; set; }
     }
 }
