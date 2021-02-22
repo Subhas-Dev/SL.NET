@@ -1,15 +1,19 @@
 ## GitHub Actions ##
 name: SonarCloud Scan
 
+#
+# Documentation:
+# https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+#
 
-# Controls when the action will run. 
+#############################
+# Start the job on all push #
+#############################
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches:
-       - "master"
-       - "feature*" 
-
+      - "master"
+      - "feature*"  
 ###############################
 # Set The Job
 # runs-on: ubuntu-latest, windows-latest
